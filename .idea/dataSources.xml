@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2317598276">
+  <component name="DataSourceManagerImpl" format="xml" hash="2205615498">
     <data-source source="LOCAL" name="Rails timesheets: development" uuid="bc819598-9f07-45dd-821b-02b561619cda">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails timesheets: production" uuid="067b2937-2cf1-492c-91c8-5859016a75cc">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:timesheets_production</jdbc-url>
       <libraries />
     </data-source>
   </component>
